@@ -181,8 +181,8 @@ public class Main {
             return;
         }
         System.out.println("++++++++++++++++++++++Found the Record :++++++++++++++++++++++++++++++++");
-        System.out.printf("\t \nName: %s \nContact: %s",existingRecord.getName(),existingRecord.getPhoneno());
-        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.printf("\t\t\tName: %s \n\t\t\tContact: %s",existingRecord.getName(),existingRecord.getPhoneno());
+        System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         }
 
     private static void RemovingContact(){
