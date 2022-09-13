@@ -26,7 +26,7 @@ public class Branch {
     public boolean addCustomerTransaction(String CustomerName,double Amount){
         Customer existingCustomer = findCustomer(CustomerName);
         if (existingCustomer!=null){
-            existingCustomer.AddTransaction(Amount);
+            existingCustomer.addTransaction(Amount);
             return true;
         }
         return false;

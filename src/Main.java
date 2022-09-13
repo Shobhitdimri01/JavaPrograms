@@ -2,12 +2,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.lang.String;
 
-import static java.util.logging.Logger.global;
-
 public class Main {
      //***********Grocery List function (Code present on ArrayList)**************//
         private static Scanner input = new Scanner(System.in);
- /*   private static Arraylist groceryList = new Arraylist();
+/*  private static Arraylist groceryList = new Arraylist();
     public static void main(String[] args) {
         boolean quit= false;
         int choice = 0;
@@ -87,7 +85,7 @@ public class Main {
     }*/
 
     //**************Mobile Functionality (Code present on Contacts,MobilePhone)****************//
-        private static MobilePhone mobilePhone =new MobilePhone("003-442-452");
+    /*    private static MobilePhone mobilePhone =new MobilePhone("003-442-452");
         private static boolean quit = false;
         public static void main(String[] args) {
 
@@ -218,6 +216,55 @@ public class Main {
     public static void Exit(){
         System.out.println("Exiting Console...................................");
             quit = true;
+    }*/
+
+    //***********************Banking Functionality (Code present on Customer,branch,bank(AutoBoxing Eg.))***********//
+  /*  public static void main(String[] args) {
+        Banking bank = new Banking("Bank of America");
+
+        if (bank.addBranch("New York")) {
+            System.out.println("New York branch created");
+        }
+
+        bank.addCustomer("New York", "Tim", 259.45);
+        bank.addCustomer("New York", "Kevin", 185.31);
+        bank.addCustomer("New York", "Robert", 225.62);
+
+        bank.addBranch("California");
+        bank.addCustomer("California", "Bob", 190.59);
+
+        bank.addCustomerTransaction("California", "Bob", 79.26);
+        bank.addCustomerTransaction("California", "Bob", 66.48);
+        bank.addCustomerTransaction("California", "John", 15.65);
+
+        bank.listCustomers("New York", true);
+        bank.listCustomers("California", true);
+
+        bank.addBranch("Texas");
+
+        if (!bank.addCustomer("Texas", "Donald", 5.53)) {
+            System.out.println("Error Texas branch does not exist");
+        }
+
+        if (!bank.addBranch("New York")) {
+            System.out.println("New York branch already exists");
+        }
+
+        if (!bank.addCustomerTransaction("New York", "Smith", 89.37)) {
+            System.out.println("Customer does not exist at branch");
+        }
+
+        if (!bank.addCustomer("New York", "John", 36.24)) {
+            System.out.println("Customer Tim already exists");
+        }
+    }
+*/
     }
 
-}
+
+
+
+
+
+
+
