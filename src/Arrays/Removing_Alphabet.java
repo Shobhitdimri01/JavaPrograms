@@ -1,3 +1,5 @@
+package Arrays;
+
 public class Removing_Alphabet {
     public static void main(String[] args) {
         char ch='l';

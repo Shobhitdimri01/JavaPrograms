@@ -5,7 +5,7 @@ import java.lang.String;
 public class Main {
      //***********Grocery List function (Code present on ArrayList)**************//
         private static Scanner input = new Scanner(System.in);
-/*  private static Arraylist groceryList = new Arraylist();
+/*  private static Arrays.Arraylist groceryList = new Arrays.Arraylist();
     public static void main(String[] args) {
         boolean quit= false;
         int choice = 0;
@@ -84,8 +84,8 @@ public class Main {
             System.out.println("Search Item not found in groceryList");
     }*/
 
-    //**************Mobile Functionality (Code present on Contacts,MobilePhone)****************//
-    /*    private static MobilePhone mobilePhone =new MobilePhone("003-442-452");
+    //**************Mobile Functionality (Code present on Arrays.Contacts,Arrays.MobilePhone)****************//
+    /*    private static Arrays.MobilePhone mobilePhone =new Arrays.MobilePhone("003-442-452");
         private static boolean quit = false;
         public static void main(String[] args) {
 
@@ -130,7 +130,7 @@ public class Main {
         String name = input.nextLine();
         System.out.println("enter a valid phone no : ");
         String PhoneNo = input.nextLine();
-        Contacts newContact = Contacts.CreateContacts(name,PhoneNo);
+        Arrays.Contacts newContact = Arrays.Contacts.CreateContacts(name,PhoneNo);
         if (mobilePhone.addNewContacts(newContact)){
             System.out.println("New Contact added with name = "+ name+" \n\t\tContactNo --> "+ PhoneNo);
         }else {
@@ -149,7 +149,7 @@ public class Main {
     private static void UpdateExistingContact(){
         System.out.println("Enter existing contact name: ");
         String name =input.nextLine();
-        Contacts existingRecord = mobilePhone.queryContact(name);
+        Arrays.Contacts existingRecord = mobilePhone.queryContact(name);
         if (existingRecord.equals(null)){
             System.out.println("Contact not found!!");
             return;
@@ -161,7 +161,7 @@ public class Main {
         String new_name = input.nextLine();
         System.out.printf("Contact: ");
         String new_number = input.nextLine();
-        Contacts NewContact = new Contacts(new_name,new_number);
+        Arrays.Contacts NewContact = new Arrays.Contacts(new_name,new_number);
         if(mobilePhone.UpdateContact(existingRecord,NewContact)){
             System.out.println("========================================================");
             System.out.println("\t\t\tSuccessfully updated Contact");
@@ -173,7 +173,7 @@ public class Main {
     private static void QueryContact() {
         System.out.println("Enter existing contact name: ");
         String name = input.nextLine();
-        Contacts existingRecord = mobilePhone.queryContact(name);
+        Arrays.Contacts existingRecord = mobilePhone.queryContact(name);
         if (existingRecord == null) {
             System.out.println("Contact not found!!");
             return;
@@ -186,7 +186,7 @@ public class Main {
     private static void RemovingContact(){
         System.out.println("Enter existing contact name: ");
         String name =input.nextLine();
-        Contacts existingRecord = mobilePhone.queryContact(name);
+        Arrays.Contacts existingRecord = mobilePhone.queryContact(name);
         if (existingRecord==null){
             System.out.println("Contact not found!!");
             return;
@@ -203,7 +203,7 @@ public class Main {
     private static void printActions(){
         System.out.println("\nAvailable Actions :\npress");
         System.out.println("\t 0 - To Shutdown !!");
-        System.out.println("\t 1 - <-------To print Contacts--------->");
+        System.out.println("\t 1 - <-------To print Arrays.Contacts--------->");
         System.out.println("\t 2 - <-------To add a new Contact--------->");
         System.out.println("\t 3 - <-------To update a contact--------->");
         System.out.println("\t 4 - <-------To remove existing contact--------->");
@@ -218,9 +218,9 @@ public class Main {
             quit = true;
     }*/
 
-    //***********************Banking Functionality (Code present on Customer,branch,bank(AutoBoxing Eg.))***********//
-  /*  public static void main(String[] args) {
-        Banking bank = new Banking("Bank of America");
+    //***********************Arrays.Banking Functionality (Code present on Arrays.Customer,branch,bank(AutoBoxing Eg.))***********//
+     public static void main(String[] args) {
+        Arrays.Banking bank = new Arrays.Banking("Bank of America");
 
         if (bank.addBranch("New York")) {
             System.out.println("New York branch created");
@@ -251,14 +251,14 @@ public class Main {
         }
 
         if (!bank.addCustomerTransaction("New York", "Smith", 89.37)) {
-            System.out.println("Customer does not exist at branch");
+            System.out.println("Arrays.Customer does not exist at branch");
         }
 
         if (!bank.addCustomer("New York", "John", 36.24)) {
-            System.out.println("Customer Tim already exists");
+            System.out.println("Arrays.Customer Tim already exists");
         }
     }
-*/
+
     }
 
 

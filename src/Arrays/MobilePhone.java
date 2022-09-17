@@ -1,3 +1,7 @@
+package Arrays;
+
+import Arrays.Contacts;
+
 import java.util.ArrayList;
 
 public class MobilePhone {

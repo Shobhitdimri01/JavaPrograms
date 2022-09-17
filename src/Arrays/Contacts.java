@@ -1,3 +1,5 @@
+package Arrays;
+
 public class Contacts {
     private String Name;
     private String PhoneNo;
