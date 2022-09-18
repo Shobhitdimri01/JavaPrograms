@@ -7,6 +7,9 @@ public class autoboxing {
         ArrayList<String>myStr = new ArrayList<String>();
         myStr.add("Rahul");
         myStr.add("Ramesh");
+
+
+
         System.out.println(myStr.get(1));
         ArrayList<Integer>myInt = new ArrayList<Integer>();
         for (int i=0;i<10;i++){
