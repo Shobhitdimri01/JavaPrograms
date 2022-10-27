@@ -10,5 +10,6 @@ public class Main {
         Frog frog = new Frog();
         frog.livesInWater();
         frog.livesInland();
+
     }
 }
